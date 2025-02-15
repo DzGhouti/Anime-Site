@@ -1,0 +1,170 @@
+body{
+  background-color: rgb(0, 0, 0);
+  }
+  .search-bar-container{
+    background-color: rgb(54, 54, 54);
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 15%;
+    min-height: 38px ;
+    z-index: 200;
+  
+  }
+  .left-search-bar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    min-width: 80px;
+  }
+  .left-search-bar-container img{
+    height: 5vw;
+    min-height: 29px;
+    max-height: 65px;
+    cursor: pointer;
+  }
+  .middle-search-bar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 0.4vw;
+    min-width: 80px;
+  }
+  .middle-search-bar-container img{
+    height: 26%;
+    background-color: gray;
+    padding: 0.5% ;
+    border-radius: 3px;
+    min-width: 14px;
+    min-height: 14px;
+    cursor: pointer;
+  }
+  .search-bar{
+    background-color: gray;
+    border: none;
+    width: 80%;
+    border-radius: 3px;
+    padding-left: 1%;
+    padding: 1.2% 1%;
+  }
+  .search-bar::placeholder{
+    color: black;
+    font-size: 1.2rem;
+  }
+  .right-search-bar-container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 15%;
+    min-width: 50px;
+  }
+  .right-search-bar-container img{
+    height: 5vw;
+    min-height: 29px;
+    cursor: pointer;
+  }
+  .side-bar-container{
+    margin-top: 10vh;
+    position: fixed;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 20vw;
+    min-width :190px ;
+    z-index: 100;
+    font-family:Orbitron;
+  }
+  .side-bar-container p{
+    font-size: 3.7vh;
+    margin: 0.7em;
+    text-shadow: 
+          -2px -2px 0 white,  
+           2px -2px 0 white,  
+          -2px  2px 0 white,  
+           2px  2px 0 white;
+    cursor: pointer;
+    display: inline;
+  }
+  .current-selector{
+    color: rgb(1, 7, 85);
+    text-shadow: 
+          -2px -2px 0 rgb(0, 0, 0),  
+           2px -2px 0 rgb(0, 0, 0),  
+          -2px  2px 0 rgb(0, 0, 0),  
+           2px  2px 0 rgb(0, 0, 0) !important;
+  }
+  
+  .main-page{
+    background-color: black;
+    margin-left: 20vw ;
+    margin-top: 16vh ;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding: 1vh;
+    border-radius: 5px;
+    min-width: 1020px;
+  }
+  .main-anime-container{
+    height: 50vh;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .main-anime-container p{
+    margin: 0;
+    color: white;
+  }
+  .anime-container{
+    height: 50vh;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+  }
+  .anime-container p{
+    margin: 0;
+  }
+  .anime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 70%;
+    margin: 0 3vh;
+    cursor: pointer;
+  }
+  .anime img{
+    height: 100%;
+    padding: 1vh;
+  
+  }
+  .anime-name{
+    background-color: gray;
+    padding: 1% 15%;
+    border-radius: 9px ;
+    font-size: 1rem;
+    text-shadow: 
+          -2px -2px 0 rgb(0, 0, 0),  
+           2px -2px 0 rgb(0, 0, 0),  
+          -2px  2px 0 rgb(0, 0, 0),  
+           2px  2px 0 rgb(0, 0, 0);
+  }
+  a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-top: 3vh ;
+  margin-bottom: 2vh;
+  max-width: 250px;
+  }
